@@ -1,6 +1,6 @@
 const express = require("express");
 const { enrollExam, getEnrolledExams } = require("../controllers/enrollexamController");
-// const { protect } = require("../middleware/authMiddleware");
+
 
 const router = express.Router();
 
